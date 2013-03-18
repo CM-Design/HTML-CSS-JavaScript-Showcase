@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* === RSS CSS === */
+
+/* begin styles for RSS Feed */
+
+#image {
+	position:relative;
+	height:25px;
+	width:25px;
+	left:376px;
+	top:-5px;
+	z-index:1
+}
+
+.rss-box {
+	top:90px;
+	z-index:2;
+	position:relative;
+	height:100px;
+	width:375px;
+	left:75px;
+	}
+
+.rss-title, rss_title a {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size: 110%;
+	font-weight:bolder;
+	color:#666;
+    margin: 0px 0;
+	padding: 0;
+	letter-spacing:1px; 
+	}
+
+
+.rss-item {
+	list-style:none;
+	color:#666; 
+	font-size:80%; 
+	font-family:Helvetica, Arial sans-serif; 
+	font-weight:lighter; 
+	/*margin: 8px 0 ;*/
+	}
+
+.rss-item a:link, .rss-item a:visited { 
+	color:#666; 
+	font-size: 110%; 
+	text-decoration:none; 
+}
+/*
+.rss-item a:hover { color: gray; text-decoration: underline }
+*/
+.rss-date { 
+	color:#666; 
+	font-size: 70%; 
+	font-weight:lighter;
+ } 

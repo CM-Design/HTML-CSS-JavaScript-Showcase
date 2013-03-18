@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CM Design - Contact</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<link type="text/css" rel="stylesheet" href="css/mobile_css/Mobile_CSS.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script language="javascript" src="js/mobile_js/Mobile_JS.js"></script>
+        
+    <!--<link href="css/mobile_css/form_style.css" rel="stylesheet" type="text/css">-->
+	</head>
+	<body>
+		<div id="container">
+        <a href="mobile_index.html">
+			<img id="arrow" src="images/back_arrow-04.png" onMouseDown="swapArrow()" onMouseUp="swapArrowBack()">
+        </a>   
+            <!--<img id="portfolio" src="Mobile_Site_18.png">-->
+            <div id="about_title"> CONTACT </div>
+			<div id="left-column">
+			<div id="content">
+ <form id="myform" action="mobile_contact.php" method="post" name="myform"> 
+	<div id="form_box"> 
+		<div>
+			<p style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666;"> 
+				First Name:
+			</p><input type="text" name="firstname" value="" size="10" 
+    		style="width:150px; height:25px" /> 
+		</div> 
+		<div> 
+			<p style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666;"> 
+				Last Name:
+			</p><input type="text" name="lastname" value="" 
+            size="10" 
+    		style="width:150px; height:25px" /> 
+		</div> 
+		<div id="email"> 
+			<p style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666;"> 
+				Email:
+			</p><input type="text" name="email" value=""  
+            size="10" 
+    		style="width:150px; height:25px" /> 
+		</div> 
+		<div id="message"> 
+			<p style="font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666;"> 
+				Message:
+			</p><textarea name="message" style="width:75%;" rows="5"></textarea> 
+		</div> 
+		<div class="hr"> 
+			<!-- spanner --> 
+        <input type="submit" name="submit" id="submit" /></div>
+        </div> 
+	</form>  
+    </div>
+	</body>
+</html>

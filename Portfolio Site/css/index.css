@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+/*	width:1000px;
+	height:500px;
+	top:-70px;
+	position:relative;
+	margin-left:450px;
+	margin-right:450px;
+	overflow:hidden;
+	font-family:Helvetica, Arial, sans-serif;*/
+}
+
+div#main-content {
+	width:900px;
+	height:900px;
+	top:-70px;
+	position:relative;
+	margin-left:450px;
+	margin-right:450px;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+div#blog_link {
+	top:250px;
+	left:350px;
+	width:100px;
+	position:relative;
+	z-index:1;
+}
+
+div#portfolio_link {
+	top:200px;
+	left:500px;
+	width:100px;
+	position:relative;
+	z-index:1;
+}
+
+div#about_link {
+	top:150px;
+	left:650px;
+	width:100px;
+	position:relative;
+	z-index:1;
+}
+
+div#contact_link {
+	top:100px;
+	left:800px;
+	width:100px;
+	position:relative;
+	z-index:1;
+}
+
+h2#logo_name {
+	color:#666;
+	width:210px;
+	font:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bolder;
+	text-align:right;
+}
+
+h3#logo_title {
+	top:-20px;
+	position:relative;
+	font-weight:lighter; 
+	font-size:20px; 
+	text-align:right; 
+	width:210px; 
+	color:#666;
+}
+
+div#logo_top {
+	position:relative;
+	bottom:-15px;
+}
+
+div#logo_bot {
+	position:relative;
+	top:-25px;
+}
+
+div#portfolio {
+	height:500px;
+	width:500px;
+	position:relative;
+	left:400px;
+	top:-120px;
+	bottom:120px;
+	z-index:1;
+}
+
+div#label {
+	position:relative;
+	bottom:450px;
+}
+
+div#left_vertice {
+	height:450px;
+	width:20px;
+	position:relative;
+	left:210px;
+	bottom:790px;
+}
+
+div#footer {
+	position:relative;
+	bottom:850px;
+	left:75px;
+}
+
+div#copyright {
+	left:765px;
+	position:relative;
+	bottom:845px;
+	width:135px;
+	text-align:right;
+}
+
+div#name {
+	position:relative;
+	left:75px;
+	bottom:860px;
+	width:150px;
+}
+
+div#contact {
+	height:500px;
+	width:500px;
+	position:relative;
+	left:325px;
+	top:-50px;
+	bottom:120px;
+	z-index:1;
+}
+
+
+div#rss {
+	position:relative;
+	height:500px;
+	width:510px;
+	left:350px;
+	top:0px;	
+}
+
+div#thank_you {
+	position:relative;
+	height:514px;
+	width:500px;
+	left:325px;
+	top:-50;
+	bottom:120px;	
+}
+
+div#biography {
+	position:relative;
+	text-align:left;
+	height:500px;
+	width:510px;
+	right:75px;
+	top:150px;
+	font-size:14px;
+	font-weight:lighter;
+	color:#666;"
+}
+
+
+div#links {
+	position:relative;
+	top:65px;
+}
+
+div#links_2 {
+	position:relative;
+	top:-95px;
+	z-index:1;	
+}

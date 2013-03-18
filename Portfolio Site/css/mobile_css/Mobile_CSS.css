@@ -1,0 +1,321 @@
+	#container {
+	margin-top:10px;
+	font-family:Helvetica, Arial, sans-serif;
+	width:600px;
+	margin-right:auto;
+	margin-left:auto;
+	}
+	#left-column {
+	border-width:thin;
+	border-style:solid;
+	border-color:rgba(117, 158, 211, .5);
+	padding:15px;
+	width:450px;
+	float:left;
+	}
+	#arrow {
+	width:25%;
+	float:left;
+	}
+	#name {
+	font-size:20px;
+	font-weight:bolder;
+	margin-top:15px;
+	margin-bottom:10px;
+	color:#666;	
+	}
+	#title {
+	font-size:16px;
+	font-weight:lighter;
+	color:#666;	
+	}
+	#about_title {
+	color:#666; 
+	float:right;
+	font-size:250%;
+	font-weight:bolder;	
+	}
+	#blog {
+	float:left;
+	margin-right:5px;
+	}
+	#portfolio {
+	float:left;
+	margin-right:5px;
+	}
+	#about {
+	float:left;
+	margin-right:5px;
+	}
+	#contact {
+	margin-right:5px;
+	float:left;
+	}
+	#text {
+	margin-bottom:10px;
+	}
+	textarea { resize:both; } /* none|horizontal|vertical|both */
+	
+@media screen and (max-width:590px) and (orientation:portrait) {
+
+	#container {
+	height:120%;
+	font-family:Helvetica, Arial, sans-serif;
+	width:100%;
+	}
+	#left-column {
+	border-width:thin;
+	border-style:solid;
+	border-color:rgba(117, 158, 211, .5);
+	padding:10px;
+	position:relative;
+	top:100px;
+	width:90%;
+	height:auto;
+	margin-bottom:150px;
+	float:left;
+	}
+	img {
+	margin:0px;
+	}
+	#name {
+	position:relative;
+	top:10px;
+	float:right;
+	font-size:20px;
+	font-weight:bolder;
+	margin-top:25px;
+	margin-bottom:10px;
+	color:#666;	
+	}
+	#title {
+	position:relative;
+	top:25px;
+	float:right;
+	font-size:18px;
+	font-weight:bolder;
+	margin-top:25px;
+	margin-bottom:45px;
+	color:#666;		
+	}
+	#arrow {
+	width:35%;
+	float:left;
+	}
+	#about_title {
+	color:#666;
+	float:right;
+	font-size:250%;
+	font-weight:bolder;	
+	}
+	#logo {
+	margin:5px;
+	width:35%;
+	height:auto;
+	float:left;
+	}
+	#blog {
+	margin:5px;
+	width:35%;
+	height:auto;
+	float:left;
+	}
+	#portfolio {
+	margin:5px;
+	width:35%;
+	height:auto;
+	float:left;
+	}
+	#about {
+	margin:5px;
+	width:35%;
+	height:auto;
+	float:left;	
+	}
+	#contact {
+	margin:5px;
+	width:35%;
+	height:auto;
+	float:left;
+	}
+	#spacing {
+	width:90%;
+	position:absolute;
+	top:35%;
+	}
+	textarea { resize:both; } /* none|horizontal|vertical|both */
+}
+
+@media screen and (max-height:480px) and (orientation:landscape) {
+	
+	#container {
+	margin-top:10px;
+	font-family:Helvetica, Arial, sans-serif;
+	width:auto;
+	height:100%;
+	}
+	#left-column {
+	border-width:thin;
+	border-style:solid;
+	border-color:rgba(117, 158, 211, .5);
+	padding:15px;
+	width:450px;
+	float:left;
+	}
+	#arrow {
+	width:auto;
+	height:35%;
+	float:left;
+	}
+	#name {
+	font-size:100%;
+	font-weight:bolder;
+	margin-top:15px;
+	margin-bottom:10px;
+	color:#666;	
+	}
+	#title {
+	font-size:50%;
+	font-weight:lighter;
+	color:#666;	
+	}
+	#about_title {
+	color:#666; 
+	float:right;
+	font-size:250%;
+	font-weight:bolder;	
+	}
+	#logo {
+	width:auto;
+	height:20%;
+	float:left;
+	margin-right:5px;
+	}
+	#blog {
+	width:auto;
+	height:20%;
+	float:left;
+	margin-right:5px;
+	}
+	#portfolio {
+	width:auto;
+	height:20%;
+	float:left;
+	margin-right:5px;
+	}
+	#about {
+	width:auto;
+	height:20%;
+	float:left;
+	margin-right:5px;
+	}
+	#contact {
+	width:auto;
+	height:20%;
+	margin-right:5px;
+	float:left;
+	}
+	#text {
+	margin-left:10px;
+	width:auto;
+	height:35%;
+	margin-bottom:10px;
+	}
+	#spacing {
+	position:absolute;
+	top:35%;
+	}
+}
+
+@media screen and (max-width:350px) and (orientation:portrait) {
+	
+	#container {
+	height:120%;
+	font-family:Helvetica, Arial, sans-serif;
+	width:100%;
+	} 
+	img {
+	margin:0px;
+	}
+	#left-column {
+	position:relative;
+	top:100px;
+	float:left;
+	width:90%;
+	height:auto;
+	margin-bottom:150px;
+	border-width:thin;
+	border-style:solid;
+	border-color:rgba(117, 158, 211, .5);
+	padding:10px;
+	}
+	#arrow {
+	width:35%;
+	float:left;	
+	}
+	#about_title {
+	color:#666; 
+	float:right;
+	font-size:250%;
+	font-weight:bolder;	
+	}
+	#logo {
+	margin:5px;
+	width:35%;
+	height:auto;
+	float:left;
+	}
+	
+	#blog {
+	margin:5px;
+	width:35%;
+	height:auto;
+	float:left;
+	}
+	
+	#portfolio {
+	margin:5px;
+	width:35%;
+	height:auto;
+	float:left;
+	}
+	
+	#about {
+	margin:5px;
+	width:35%;
+	height:auto;
+	float:left;	
+	}
+	
+	#contact {
+	margin:5px;
+	width:35%;
+	height:auto;
+	float:left;
+	}
+	
+	#name {
+	position:relative;
+	top:10px;
+	float:left;
+	font-size:16px;
+	font-weight:bolder;
+	margin-top:15px;
+	margin-bottom:10px;
+	color:#666;	
+	}
+	#title {
+	position:relative;
+	top:15px;
+	float:left;
+	font-size:14px;
+	font-weight:bolder;
+	color:#666;		
+	}
+	#spacing {
+	width:90%;
+	position:absolute;
+	top:35%;
+	}
+	textarea { resize:both; } /* none|horizontal|vertical|both */
+}
