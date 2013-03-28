@@ -1,1 +1,1 @@
-Portfolio showcasing the front end web coding abilities of Chris Medykiewicz. This repository consists of HTML, CSS and Javascript. Applications coded and developed here include but are not limited to: Landing pages, email blasts and web pages.
+Portfolio showcasing the front end web coding abilities of Chris Medykiewicz. This repository consists of projects coded in HTML, CSS and Javascript. Applications coded and developed here include but are not limited to: Landing pages, email blasts and web pages.
