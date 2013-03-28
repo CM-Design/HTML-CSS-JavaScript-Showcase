@@ -1,0 +1,419 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* +++ BODY STYLING +++ */
+#body
+{
+	background-color:#FFF;
+	position:absolute;
+	height:2200px;
+	width:100%;
+	margin:0px;
+}
+
+/* +++ PULLS UP FROM <DIV ID="PAGE-CONTENT"> TO FOOTER +++ */
+#page-content
+{
+	position:relative;
+	top:-420px;
+}
+
+/* +++ CENETER STYLING +++ */
+#center
+{
+	height:inherit;
+	width: 1000px; 
+	margin: 0 auto; 
+}
+
+/* +++ HEADER STYLING +++ */
+	/* +++ LOGO, SIGN IN, NAVBAR & EVENT SCROLLER +++ */
+#logo
+{
+	height:100px;
+	width:100px;
+	position:relative;
+	left:50px;
+	top:50px;
+}
+
+#divider
+{
+	width:10px;
+	height:50px;
+	position:relative;
+	top:-45px;
+	right:-140px;	
+}
+
+#logo_text
+{
+	color:#666;
+	font-family:"Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+	font-weight:300;
+	height:75px;
+	width:300px;
+	position:relative;
+	left:170px;
+	top:-105px;	
+}
+
+/* +++ LOG IN STYLING +++ */
+#log_in
+{
+	z-index:2;
+	position:relative;
+	top:-230px;
+	left:1050px;
+	color:#FFF;
+	font-family:"Helvetica Neue-Bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+	font-weight:300;
+}
+
+#log_in_button
+{
+	position:relative;
+	top:65px;
+	left:0px;
+	height:50px;
+	width:100px;
+	background-color:#666;
+	color:#FFF;
+	border: 1px solid #666;
+	font-weight:100;
+	font-size:16px;
+	font-family:"Helvetica Neue-Bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+}
+
+/* +++ NAVBAR STYLING +++ */
+	/* +++ NAVBAR BG IMAGE STYLING +++ */
+#nav_image
+{
+	z-index:2;
+	position:relative;
+	top:-235px;
+	left:620px;
+}
+
+	/* +++ NAVBAR BUTTON STYLING +++ */  
+#home
+{
+	float:left;
+	position:relative;
+	top:35px;
+	left:10px;
+}
+
+#employment
+{
+	float:left;
+	position:relative;
+	top:35px;
+	left:40px;
+}
+
+#about
+{
+	float:left;
+	position:relative;
+	top:35px;
+	left:70px;
+}
+
+#links
+{
+	float:left;
+	position:relative;
+	top:35px;
+	left:100px;
+}
+
+#events
+{
+	float:left;
+	position:relative;
+	top:85px;
+	left:-375px;
+}
+
+#seminar
+{
+	float:left;
+	position:relative;
+	top:85px;
+	left:-335px;
+}
+
+#contact
+{
+	float:left;
+	position:relative;
+	top:85px;
+	left:-285px;
+}
+
+#community
+{
+	float:left;
+	position:relative;
+	top:85px;
+	left:-250px;
+}
+
+/* +++ KEYWORD/UJAMMA HEADING +++ */
+#ujamma
+{
+	position:relative;
+	top:-125px;
+	left:50px;
+}
+
+#ujamma_2
+{
+	position:relative;
+	top:-175px;
+	left:350px;
+}
+
+/* +++ CONTENT DIVIDERS +++ */
+#divider2
+{
+	position:relative;
+	top:-225px;
+	left:50px;	
+}
+
+#divider3
+{
+	position:relative;
+	top:-241px;
+	left:50px;
+}
+
+/* +++ CONTENT FORMATTING +++ */
+#content_header
+{
+	color:#666;
+	position:relative;
+	top:210px;
+	left:50px;
+	font-family:"Helvetica Neue-Bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+}
+
+#content
+{
+	color:#666;
+	position:relative;
+	top:225px;
+	left:50px;
+	font-family:"Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+	font-weight:300;
+	width:850px;
+	height:300px;
+}
+
+/* +++ CONTENT ICON STYLING +++ */
+#icons
+{
+	position:relative;
+	top:0px;
+	left:0px;
+}
+
+#mail_image
+{
+	position:relative;
+	top:210px;
+	left:110px;
+	width:100px;
+	height:100px;	
+}
+
+#join_image
+{
+	position:relative;
+	top:-350px;
+	left:20px;
+	width:50px;
+	height:0px;	
+}
+
+#donate_image
+{
+	position:relative;
+	top:-360px;
+	left:65px;
+	width:50px;
+	height:0px;	
+}
+
+/* +++ SUBSCRIBE COLUMN STYLING +++ */
+#subscribe
+{
+	color:#666;
+	position:relative;
+	top:292px;
+	left:50px;
+	width:250px;
+	height:400px;
+	font-family:"Helvetica Neue-Bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+}
+
+#subscribe_header
+{
+	font-family:"Helvetica Neue-Bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+	font-size:24pxpx;
+	font-weight:100;
+}
+
+#subscribe_field
+{
+	border:#666 solid 3px;
+	height:25px;
+	width:175px;
+}
+
+#subscribe_button
+{
+	position:relative;
+	top:-26px;
+	left:0px;
+	width:100px;
+	height:100px;	
+}
+
+/* +++ JOIN US COLUMN STYLING +++ */
+#join_us
+{
+	color:#666;
+	position:relative;
+	top:-129px;
+	left:350px;
+	width:250px;
+	height:200px;
+	font-family:"Helvetica Neue-Bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;	
+}
+
+#join_button
+{
+	position:relative;
+	top:0px;
+	left:50px;
+	width:100px;
+	height:100px;	
+}
+
+/* +++ DONATE COLUMN STYLING +++ */
+#donate
+{
+	color:#666;
+	position:relative;
+	top:-350px;
+	left:650px;
+	width:250px;
+	height:200px;
+	font-family:"Helvetica Neue-Bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;		
+}
+
+#donate_button
+{
+	position:relative;
+	top:2px;
+	left:50px;
+	width:100px;
+	height:100px;	
+}		
+
+/* +++ BUTTON/FORM POSITION e.g SUBSCRIBE JOIN US DONATE, & LOG IN BUTTONS +++ */
+#log_in_position
+{
+	position:relative;
+	top:0px;
+	left:-50px;
+}
+
+#subscribe_position
+{
+	position:relative;
+	top:0px;
+	left:-50px;
+}
+
+#join_us_position
+{
+	position:relative;
+	top:0px;
+	left:-50px;
+}
+
+#donate_position
+{
+	position:relative;
+	top:0px;
+	left:-50px;
+}
+
+/* +++ BUTTON STYLING +++ */
+#submit
+{
+	position:relative;
+	top:65px;
+	left:0px;
+	height:30px;
+	width:100px;
+	background-color:#666;
+	color:#FFF;
+	border: 1px solid #666;
+	font-weight:100;
+	font-size:16px;
+	font-family:"Helvetica Neue-Bold", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+}
+
+/* +++ FOOTER STYLING +++ */
+#footer
+{
+	color:#999;
+	position:relative;
+	bottom:500px;
+	height:500px;
+	width:100%;
+	background-color:#666;
+	font-family:"Helvetica Neue-light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+	font-weight:100;
+	font-size:14px;
+	margin:0%;
+	padding:0%
+}
+
+	/*+++ FOOTER NAV STYLING +++ */
+#footer_nav
+{
+	position:relative;
+	float:left;
+	bottom:-100px;
+	left:50px;
+	width:100px;
+	height:200px;
+}
+
+	/* +++ FOOTER EXTRAS STYLING +++ */
+#footer_extras
+{
+	position:relative;
+	float:left;
+	bottom:-100px;
+	left:250px;
+	width:100px;
+	height:200px;
+}
+
+	/* +++ FOOTER MAILING INFO STYLING +++ */
+#footer_mailing
+{
+	position:relative;
+	float:left;
+	bottom:-100px;
+	left:450px;
+	width:200px;
+	height:200px;
+}
